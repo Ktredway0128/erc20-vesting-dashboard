@@ -365,7 +365,7 @@ function App() {
       setStatusStyle(STATUS_COLORS.revoke);
       setIsLoading(true);
       const tx = await contract.revoke(vestingId);
-      const receipt = await tx.wait();
+      await tx.wait();
       await new Promise(resolve => setTimeout(resolve, 2000));
       setIsLoading(false);
       setTxHash(tx.hash);
