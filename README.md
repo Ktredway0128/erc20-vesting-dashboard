@@ -1,4 +1,4 @@
-# ERC-20 TOKEN VESTING DASHBOARD
+# TOKEN VESTING DASHBOARD
 
 [![Verified on Etherscan](https://img.shields.io/badge/Etherscan-Verified-brightgreen)](https://sepolia.etherscan.io/address/0x81F71D5D73383750C9d4BCe65C493A55BA887ecB#code)
 
@@ -187,8 +187,8 @@ Contains the Alchemy RPC URL used for all read operations.
 ### CLONE THE REPOSITORY:
 
 ```bash
-git clone https://github.com/Ktredway0128/erc20-vesting-dashboard
-cd erc20-vesting-dashboard
+git clone https://github.com/Ktredway0128/token-vesting-dashboard
+cd token-vesting-dashboard
 ```
 
 ### INSTALL DEPENDENCIES:
